@@ -30,7 +30,7 @@ public class ReuseableSpecifications {
 		respec = new ResponseSpecBuilder();
 		respec.expectHeader("Content-Type",  "application/json;charset=UTF-8");
 		respec.expectHeader("Transfer-Encoding","chunked");
-		respec.expectResponseTime(lessThan(5L),TimeUnit.SECONDS);
+		respec.expectResponseTime(lessThan(30L),TimeUnit.SECONDS);
 		responseSpecification = respec.build();
 		return responseSpecification;
 	}

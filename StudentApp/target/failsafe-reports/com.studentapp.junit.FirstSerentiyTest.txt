@@ -1,4 +1,19 @@
 -------------------------------------------------------------------------------
 Test set: com.studentapp.junit.FirstSerentiyTest
 -------------------------------------------------------------------------------
-Tests run: 0, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 8.307 s - in com.studentapp.junit.FirstSerentiyTest
+Tests run: 7, Failures: 1, Errors: 2, Skipped: 3, Time elapsed: 63.176 s <<< FAILURE! - in com.studentapp.junit.FirstSerentiyTest
+thisIsATestWithError(com.studentapp.junit.FirstSerentiyTest)  Time elapsed: 0.003 s  <<< ERROR!
+java.lang.ArithmeticException: / by zero
+	at com.studentapp.junit.FirstSerentiyTest.thisIsATestWithError(FirstSerentiyTest.java:51)
+
+thisIsaFailing(com.studentapp.junit.FirstSerentiyTest)  Time elapsed: 49.412 s  <<< FAILURE!
+java.lang.AssertionError: 
+1 expectation failed.
+Expected status code <500> but was <200>.
+
+	at com.studentapp.junit.FirstSerentiyTest.thisIsaFailing(FirstSerentiyTest.java:34)
+
+fileDoesNotExist(com.studentapp.junit.FirstSerentiyTest)  Time elapsed: 0.045 s  <<< ERROR!
+java.io.FileNotFoundException: E:\file.txt (The system cannot find the path specified)
+	at com.studentapp.junit.FirstSerentiyTest.fileDoesNotExist(FirstSerentiyTest.java:58)
+

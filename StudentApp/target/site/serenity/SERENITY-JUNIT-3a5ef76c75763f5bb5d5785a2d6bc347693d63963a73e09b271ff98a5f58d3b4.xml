@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="1" failures="1" name="com.studentapp.junit.FirstSerentiyTest" skipped="4" tests="7" time="28.94" timestamp="2019-04-09 10:22:44"><testcase classname="com.studentapp.junit.FirstSerentiyTest" name="This is a skipped test"><skipped/></testcase><testcase classname="com.studentapp.junit.FirstSerentiyTest" name="This is a pending test"><skipped/></testcase><testcase classname="com.studentapp.junit.FirstSerentiyTest" name="This is a manual test"><skipped/></testcase><testcase classname="com.studentapp.junit.FirstSerentiyTest" name="This is a test with error"><error message="/ by zero" type="java.lang.ArithmeticException">/ by zero</error><system-err>/ by zero&#13;
+com.studentapp.junit.FirstSerentiyTest.thisIsATestWithError(FirstSerentiyTest.java:51)&#13;
+</system-err></testcase><testcase classname="com.studentapp.junit.FirstSerentiyTest" name="This isa failing"><failure message="1 expectation failed.&#10;Expected status code &lt;500&gt; but was &lt;200&gt;.&#10;" type="java.lang.AssertionError">1 expectation failed.
+Expected status code &lt;500&gt; but was &lt;200&gt;.
+</failure><system-err>1 expectation failed.
+Expected status code &lt;500&gt; but was &lt;200&gt;.
+&#13;
+io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:656)&#13;
+io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:125)&#13;
+io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:133)&#13;
+io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:119)&#13;
+com.studentapp.junit.FirstSerentiyTest.thisIsaFailing(FirstSerentiyTest.java:34)&#13;
+</system-err></testcase><testcase classname="com.studentapp.junit.FirstSerentiyTest" name="File does not exist"><compromised message="E:\file.txt (The system cannot find the path specified)" type="java.io.FileNotFoundException">E:\file.txt (The system cannot find the path specified)</compromised><system-err>E:\file.txt (The system cannot find the path specified)&#13;
+com.studentapp.junit.FirstSerentiyTest.fileDoesNotExist(FirstSerentiyTest.java:58)&#13;
+</system-err></testcase><testcase classname="com.studentapp.junit.FirstSerentiyTest" name="Get all students"/></testsuite>

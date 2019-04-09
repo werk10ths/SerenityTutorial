@@ -1,8 +1,0 @@
-"Story","Title","Result","Date","Stability","Duration (s)"
-"First serentiy test","This is a skipped test","IGNORED","2019-04-09T10:22:44.779-04:00[America/New_York]","0.0","0.49"
-"First serentiy test","This is a pending test","PENDING","2019-04-09T10:22:45.602-04:00[America/New_York]","0.0","0.01"
-"First serentiy test","This is a manual test","PENDING","2019-04-09T10:22:45.612-04:00[America/New_York]","0.0","0.0"
-"First serentiy test","This is a test with error","ERROR","2019-04-09T10:22:45.713-04:00[America/New_York]","0.0","0.1"
-"First serentiy test","This isa failing","FAILURE","2019-04-09T10:22:45.902-04:00[America/New_York]","0.0","27.62"
-"First serentiy test","File does not exist","COMPROMISED","2019-04-09T10:23:13.556-04:00[America/New_York]","0.0","0.01"
-"First serentiy test","Get all students","SUCCESS","2019-04-09T10:23:13.57-04:00[America/New_York]","0.0","0.72"

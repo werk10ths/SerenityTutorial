@@ -38,6 +38,10 @@ public class StudentCRUDTest extends TestBase{
 	@Steps
 	StudentSerenitySteps steps = new StudentSerenitySteps();
 	
+	@WithTags({
+		@WithTag("studentfeature:SMOKE"),
+		@WithTag("POSITIVE")
+	})	
 	@Title("This test will create a new student")
 	@Test
 	public void test001() {
